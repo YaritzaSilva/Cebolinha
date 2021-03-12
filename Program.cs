@@ -13,6 +13,7 @@ namespace Cebolinha
             texto= Console.ReadLine();
 
             textoModificado= texto.Replace ("r","l");
+            textoModificado= texto.Replace ("rr","l");
 
             Console.WriteLine($"Sua fala: {textoModificado}");
 
